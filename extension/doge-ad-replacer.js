@@ -106,7 +106,7 @@
       if (el.offsetWidth == adWidth && el.offsetHeight == adHeight) {
         matchedAd = true;
         if (adImages) {
-          el.outerHTML = '<div style="width:'+adWidth+'px; height:'+adHeight+'px; background: url('+getRandomAd(adImages).link+'); no-repeat fixed; -webkit-background-size: cover; border: 1px solid #ddd"></div>';
+          el.outerHTML = '<div style="width:'+adWidth+'px; height:'+adHeight+'px; background: url("http://imgur.com/abcde.jpg"); no-repeat fixed; -webkit-background-size: cover; border: 1px solid #ddd"></div>';
         }
       }
     });
